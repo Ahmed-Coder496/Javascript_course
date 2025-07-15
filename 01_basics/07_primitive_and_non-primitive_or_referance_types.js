@@ -1,6 +1,6 @@
 "use strict"
 
-// Data types of javascript summary
+// Primitive & Non-Primitive / Referance
 
 /*
 Data types are divided in 2 catagories
