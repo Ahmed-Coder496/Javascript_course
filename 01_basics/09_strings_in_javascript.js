@@ -22,6 +22,18 @@ let replace = "you are a good footballer"
 let replaceall = "This is farrari. farrari is the best car and the color of farrari is red"
 // console.log(`${replaceall.replaceAll("farrari", "Roles Royals")}`);        // => This is Roles Royals. Roles Royals is the best car and the color of Roles Royals is red
 
+let lowerCase = "AHMED"
+// console.log(lowerCase.toLowerCase());        // => ahmed
+
+let upperCase = "ahmed"
+// console.log(lowerCase.toUpperCase());        // => AHMED
+
+const string = new String ("PubG")
+// console.log(string.toString());        // => PubG
+
+let trim = "              Ahmed              "
+// console.log(trim);        // =>               Ahmed              
+// console.log(trim.trim());        // => Ahmed
 
 
 
