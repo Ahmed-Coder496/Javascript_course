@@ -25,10 +25,18 @@ console.log(date);
 // console.log(date.toDateString());
 // console.log(date.toISOString());
 // console.log(date.toJSON());
-console.log(date.toLocaleDateString());        // => UK method
-console.log(date.toLocaleDateString("en-PK"));        // => Pakistan method
-console.log(date.toLocaleTimeString());
-console.log(date.toLocaleString());
+// console.log(date.toLocaleDateString());        // => UK method
+// console.log(date.toLocaleDateString("en-PK"));        // => Pakistan method
+// console.log(date.toLocaleTimeString());
+// console.log(date.toLocaleString());
+
+
+let newDate = new Date()
+newDate.toLocaleString('Default' , {
+    weekday: "long"
+})
+console.log(newDate.toLocaleString());
+
 
 
 
