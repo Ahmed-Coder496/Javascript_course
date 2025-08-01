@@ -52,7 +52,7 @@ let firArr = 1
 let secArr = 2
 let thirArr = 3
 
-console.log(Array.of(firArr, secArr, thirArr));
+console.log(Array.of(firArr, secArr, thirArr));        // => [ 1, 2, 3 ]
 
 
 
