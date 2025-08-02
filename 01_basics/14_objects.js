@@ -2,6 +2,8 @@
 
 // Objects
 
+// Object Literals
+
 let idNum = Symbol()
 let myObj = {
     name: "Ahmed",
@@ -13,3 +15,14 @@ let myObj = {
 console.log(myObj);
 console.log(myObj.age);
 console.log(myObj["name"]);
+console.log(myObj.email);
+myObj.email = "cba321@gmail.com"
+// Object.freeze(myObj)
+myObj.email = "email321@gmail.com"
+console.log(myObj.email);
+
+myObj.greeting = function(){
+    console.log(`Hi, ${this.name}`);
+}
+console.log(myObj.greeting());
+
