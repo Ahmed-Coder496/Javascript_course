@@ -48,20 +48,25 @@ let userThird = { ...userOne, ...userTwo }
 
 // console.log(userThird);        // => { name: 'Ali', email: 'ali@gmail.com', age: 16, id: 17 }                 // => Don't use this method in these days
 
-let userObj = {
-  age: 18,
-  userLogged:true
+const userObj = {
+  greeting:"hello"
 }
+const userDetails = Object.create(userObj)
+
+userDetails.name="Ahmed"
+userDetails.age=24
 
 
-let userDetails = Object.create(userObj)
-userDetails.name = "Ahmed"
-userDetails.age = 18
-userDetails.email = "abc@gmail.com"
-
-console.log(`My name is ${this.name}, I'm ${this.age}. I signUp with ${this.email} this email. Am I loggedIn?`);
+console.log(`${this.greeting}, My name is ${this.name}, I'm ${this.age}. I signUp with ${this.email} this email. Am I loggedIn?`);
 
 console.log(userObj);
+
+
+
+
+
+
+
 
 
 
