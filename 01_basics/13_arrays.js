@@ -52,7 +52,15 @@ let firArr = 1
 let secArr = 2
 let thirArr = 3
 
-console.log(Array.of(firArr, secArr, thirArr));        // => [ 1, 2, 3 ]
+// console.log(Array.of(firArr, secArr, thirArr));        // => [ 1, 2, 3 ]
 
+//========================================================================================================================================
 
+// Arrays Destructuring
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+
+const [a, b, c, d, ...rest] = arr
+
+console.log(rest);
 

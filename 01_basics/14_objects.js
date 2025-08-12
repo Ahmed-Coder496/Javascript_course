@@ -1,12 +1,13 @@
 "use_strict"
 
 // Objects
-
+// =======================================================================================================================================
 // Singleton Objects
 
 let newObj = new Object()
 // console.log(newObj);        // => {}
 
+// =======================================================================================================================================
 
 // Object Literals
 
@@ -48,18 +49,27 @@ let userThird = { ...userOne, ...userTwo }
 
 // console.log(userThird);        // => { name: 'Ali', email: 'ali@gmail.com', age: 16, id: 17 }                 // => Don't use this method in these days
 
-const userObj = {
-  greeting:"hello"
+// Objects Destructuring
+
+// =======================================================================================================================================
+
+let userInputDetails = {
+  username: "Ahmed",
+  userId: 890,
+  userEmail: "abc@gmail.com"
 }
-const userDetails = Object.create(userObj)
 
-userDetails.name="Ahmed"
-userDetails.age=24
+// console.log(`Hi, myname is ${userInputDetails.username}, and my user ID is ${userInputDetails.userId}, and my email is ${userInputDetails.userEmail}`);
 
+let { userEmail, userId, username } = userInputDetails
 
-console.log(`${this.greeting}, My name is ${this.name}, I'm ${this.age}. I signUp with ${this.email} this email. Am I loggedIn?`);
+// console.log(`Hi, my name is ${username}, and my user ID is ${userId}, and my email is ${userEmail}`);
 
-console.log(userObj);
+//go to more short
+
+let { userEmail: ue, userId: ui, username: un } = userInputDetails
+
+// console.log(`Hi, my name is ${un}, and my user ID is ${ui}, and my email is ${ue}`);
 
 
 
