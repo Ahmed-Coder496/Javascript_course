@@ -28,4 +28,9 @@ func()        // => It call's the function
 // console.log(newFunc());        // => My name is undefined.
 // console.log(newFunc("Ahmed"));        // => My name is Ahmed.
 
+// Rest Operator
 
+function rest(...num1) {
+    return num1
+}
+// console.log(rest(1, 2, 3, 4, 5, 6, 7, 8));        // => [1, 2, 3, 4,5, 6, 7, 8]
