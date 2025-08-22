@@ -63,4 +63,12 @@ const addTwo = function(num){
 }
 
 
-let randi2 = ""
+
+
+
+
+
+
+
+
+
