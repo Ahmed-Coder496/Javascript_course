@@ -12,4 +12,6 @@ userIdentity = "Karachi"
 
 console.table([userName, userId, userPw, userIdentity]);
 
+// so output is (userName : 'Ahmed' userId : 123 userPw : '123' , userIdentity : 'Karaghi')
+
 // Kindly don't use var
